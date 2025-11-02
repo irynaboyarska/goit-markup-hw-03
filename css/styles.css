@@ -51,7 +51,7 @@ img{
     gap: 332px;
     min-height: 72px;
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav{
@@ -79,7 +79,7 @@ img{
 
 .nav-list{
     display: flex;
-    gap: 24px;
+    gap: 40px;
 }
 
 .nav-list-item{
@@ -133,7 +133,7 @@ img{
 /* #region section hero */
 .hero-section{
     background-color: #2E2F42;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 .hero-title{
@@ -143,10 +143,9 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    padding-top: 188px;
     padding-bottom: 48px;
     margin: 0 auto;
-    width: 496px;
+    max-width: 496px;
 }
 
 .hero-button{
@@ -158,10 +157,13 @@ img{
     color: #ffffff;
     background-color: #4D5AE5;
     cursor: pointer;
-    display: flex;
+    display: block;
     margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .hero-button:hover, .hero-button:focus{
@@ -203,7 +205,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .values-text{
@@ -227,7 +229,7 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list{
@@ -252,7 +254,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .team-text{
@@ -275,14 +277,14 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 60px;
+    row-gap: 48px;
 }
 
 .portfolio-list-item{
@@ -292,9 +294,8 @@ img{
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-    padding-left: 16px;
+    padding: 32px 16px;
 }
-
 .portfolio-item-title{
     font-weight: 500;
     font-size: 20px;
@@ -302,7 +303,7 @@ img{
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .portfolio-text{
@@ -328,7 +329,7 @@ img{
     text-transform: uppercase;
     color: #4D5AE5;
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .footer-logo-text{
