@@ -29,6 +29,8 @@ p{
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container{
@@ -168,12 +170,17 @@ img{
 
 /* #region values */
 .values{
+    padding: 120px 0;
 }
 
 .values-list{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
 }
 
 .values-list-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -195,6 +202,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-bottom: 8px;
 }
 
 .values-text{
@@ -207,6 +215,7 @@ img{
 /* #region team  */
 .team{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-title{
@@ -217,13 +226,23 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    padding-bottom: 72px;
 }
 
 .team-list{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
 }
 
 .team-list-item{
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-description-container{
+    padding: 32px 0;
+    text-align: center;
 }
 
 .team-item-title{
@@ -232,6 +251,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-bottom: 8px;
 }
 
 .team-text{
