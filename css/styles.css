@@ -123,6 +123,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .address-link:hover, .address-link:focus{
     color: #404BBF;
@@ -263,6 +264,7 @@ img{
 
 /* #region portfolio */
 .portfolio{
+    padding: 120px 0;
 }
 
 .portfolio-title{
@@ -273,12 +275,24 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    padding-bottom: 72px;
 }
 
 .portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 60px;
 }
 
 .portfolio-list-item{
+}
+
+.portfolio-description-container{
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    padding-left: 16px;
 }
 
 .portfolio-item-title{
@@ -287,18 +301,22 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .portfolio-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 /* #endregion portfolio */
 
 /* #region footer */
 .section-footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-logo{
@@ -309,6 +327,8 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    display: inline-block;
+    padding-bottom: 16px;
 }
 
 .footer-logo-text{
@@ -320,5 +340,6 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
 }
 /* #endregion footer */
