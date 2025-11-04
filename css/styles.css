@@ -109,7 +109,6 @@ img{
 
 .address-list{
     display: flex;
-    padding: 24px 0;
     gap: 40px;
 }
 
@@ -146,8 +145,7 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
-    padding-bottom: 48px;
-    margin: 0 auto;
+    margin: 48px auto;
     max-width: 496px;
 }
 
@@ -305,7 +303,6 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -313,7 +310,6 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
 }
 /* #endregion portfolio */
 
